@@ -1,0 +1,20 @@
+name: energy-io
+dependencies:
+- python=3
+- pip
+- pip:
+    - tabula-py
+    - pyblp
+- numpy
+- scipy
+- sympy
+- patsy
+- pandas
+- beautifulsoup4
+- lxml
+- requests
+- pyarrow
+- selenium
+- xlrd
+- jupyter
+
