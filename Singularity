@@ -1,5 +1,6 @@
-BootStrap: library
-From: ubuntu:20.04
+BootStrap: debootstrap
+OSVersion: focal
+MirrorURL:  http://us.archive.ubuntu.com/ubuntu/
 
 %files
   renv.lock
