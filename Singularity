@@ -20,8 +20,9 @@ From: ubuntu:20.04
   # R packages
   apt-get -y install libxml2-dev libcurl4-openssl-dev libssl-dev libgdal-dev libudunits2-dev pandoc
   Rscript -e 'install.packages("renv", repos="https://cloud.r-project.org/")'
-  echo "options(renv.consent = TRUE)" > .Rprofile
-  Rscript -e "renv::restore()"
+  mkdir /opt/renv
+  echo "RENV_PATHS_CACHE = /opt/renv" >> $(R RHOME)/etc/Renviron.site
+  Rscript -e "options(renv.consent = TRUE); renv::restore()"
 
   # Install Anaconda
   apt-get -y install wget
