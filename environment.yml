@@ -17,4 +17,5 @@ dependencies:
 - selenium
 - xlrd
 - jupyter
-
+- scikit-learn
+- statsmodels
