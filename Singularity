@@ -24,13 +24,10 @@ From: ubuntu:20.04
   echo "RENV_PATHS_CACHE = /opt/renv" >> $(R RHOME)/etc/Renviron.site
   Rscript -e "options(renv.consent = TRUE); renv::restore()"
 
-  # Install Anaconda
+  # Install Anaconda (but not packages)
   apt-get -y install wget
   wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
   bash Miniconda3-latest-Linux-x86_64.sh -bfp /usr/local
-
-  # Python packages
-  conda env create -f environment.yml
 
 %test
   #!/bin/sh
