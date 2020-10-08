@@ -3,7 +3,6 @@ From: ubuntu:20.04
 
 %files
   renv.lock
-  environment.yml
 
 %post
   # Install R
