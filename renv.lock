@@ -317,6 +317,13 @@
       "Repository": "CRAN",
       "Hash": "76de23891bdba419517e855ed611ad29"
     },
+    "forcats": {
+      "Package": "forcats",
+      "Version": "0.5.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "1cb4279e697650f0bd78cd3601ee7576"
+    },
     "foreign": {
       "Package": "foreign",
       "Version": "0.8-80",
@@ -365,6 +372,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "ac5c6baf7822ce8732b343f14c072c4d"
+    },
+    "haven": {
+      "Package": "haven",
+      "Version": "2.3.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "221d0ad75dfa03ebf17b1a4cc5c31dfc"
     },
     "here": {
       "Package": "here",
@@ -463,6 +477,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "590829599d6182cf7461787af34666ee"
+    },
+    "lfe": {
+      "Package": "lfe",
+      "Version": "2.8-5.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5a1a1900da7d1e197a1022ea0f14e353"
     },
     "lifecycle": {
       "Package": "lifecycle",
@@ -709,6 +730,13 @@
       "Repository": "CRAN",
       "Hash": "33a5b27a03da82ac4b1d43268f80088a"
     },
+    "sandwich": {
+      "Package": "sandwich",
+      "Version": "2.5-1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "510d1f864cd565d8119801a49db4fd85"
+    },
     "scales": {
       "Package": "scales",
       "Version": "1.1.1",
@@ -863,12 +891,26 @@
       "Repository": "CRAN",
       "Hash": "60e146e3aba37a547e12306dc3da77a6"
     },
+    "xtable": {
+      "Package": "xtable",
+      "Version": "1.8-4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "b8acdf8af494d9ec19ccb2481a9b11c2"
+    },
     "yaml": {
       "Package": "yaml",
       "Version": "2.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "2826c5d9efb0a88f657c7a679c7106db"
+    },
+    "zoo": {
+      "Package": "zoo",
+      "Version": "1.8-8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c2ea03282caa1f6972dc84fc5bf671cc"
     }
   }
 }
