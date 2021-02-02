@@ -19,7 +19,7 @@ From: ubuntu:20.04
   # R packages
   apt-get -y install wget
   wget https://github.com/jgm/pandoc/releases/download/2.11.2/pandoc-2.11.2-1-amd64.deb
-  sudo dpkg -i pandoc-2.11.2-1-amd64.deb
+  dpkg -i pandoc-2.11.2-1-amd64.deb
 
   apt-get -y install libxml2-dev libcurl4-openssl-dev libssl-dev libgdal-dev libudunits2-dev
   Rscript -e 'install.packages("renv", repos="https://cloud.r-project.org/")'
